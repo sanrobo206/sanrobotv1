@@ -11,27 +11,21 @@ title: Sanatan Sinha
 
 ---
 
-### 🚀 Project 1: srobotv1
+### Project 1: srobotv1
 
-[Robot1 Description Here]
-
-<object data="https://cad.onshape.com" type="text/html" width="100%" height="500px" style="border:2px solid #333; border-radius:10px;"></object>
+[Project 1 description goes here]
 
 ---
 
-### 🛠️ Project 2: [Project Name Here]
+### Project 2: [Project Name Here]
 
-[Project Description Goes Here]
-
-<object data="https://cad.onshape.com" type="text/html" width="100%" height="500px" style="border:2px solid #333; border-radius:10px;"></object>
+[Project 2 description goes here]
 
 ---
 
-### 📈 Project 3: [Project Name Here]
+### Project 3: [Project Name Here]
 
-[Project Description Goes Here]
-
-<object data="https://cad.onshape.com" type="text/html" width="100%" height="500px" style="border:2px solid #333; border-radius:10px;"></object>
+[Project 3 description goes here]
 
 ---
 

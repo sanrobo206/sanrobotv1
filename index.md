@@ -23,13 +23,15 @@ title: Sanatan - Projects
       Project 1: srobotv1
     </h2>
 
-    <!-- Project 1 Image (Using your specific filename) -->
+    <!-- Project 1 Image -->
     <div style="text-align: center; margin-bottom: 35px;">
       <img src="Screenshot from 2026-02-20 13-59-47.png" alt="srobotv1 Robot Arm" style="width: 100%; max-width: 900px; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
     </div>
 
     <div style="font-size: 1.2rem; color: #3c4043; text-align: justify; padding: 0 5%;">
-      Project 1 description goes here. The <b>srobotv1</b> is a high-precision robotic manipulator designed for complex assembly tasks, as illustrated in the CAD rendering above.
+      The <b>srobotv1</b> is a high-precision, <b>seven-axis</b> robotic manipulator. A core focus of this engineering design is extreme mechanical stability; because the base serves as the foundation, even a minor 1-degree deflection at the bottom results in massive, unmanageable movement at the gripper side. 
+      <br><br>
+      To solve this, I have integrated <b>bearings throughout the entire assembly</b>, ensuring smooth, rigid rotation at every joint and critical junction. Furthermore, the additional seventh axis provides the arm with significantly greater dexterity and range than a standard 6-axis robot, allowing it to reach complex positions and navigate obstacles with ease.
     </div>
   </section>
 
@@ -39,7 +41,7 @@ title: Sanatan - Projects
       Project 2: robot
     </h2>
     <div style="font-size: 1.2rem; color: #3c4043; text-align: justify; padding: 0 5%;">
-      Project 2 description goes here. This section maintains the clean, white-space heavy aesthetic of the ALOHA project page.
+      Project 2 description goes here.
     </div>
   </section>
 
@@ -49,7 +51,7 @@ title: Sanatan - Projects
       Project 3: [Project Name]
     </h2>
     <div style="font-size: 1.2rem; color: #3c4043; text-align: justify; padding: 0 5%;">
-      Project 3 description goes here. Summarize the key findings or future iterations of your robotics work.
+      Project 3 description goes here.
     </div>
   </section>
 

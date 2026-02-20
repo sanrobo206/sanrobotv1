@@ -3,20 +3,19 @@ layout: page
 title: Sanatan Sinha
 ---
 
-<center>## by Sanatan Sinha</center>
+<center>
+
+## by Sanatan Sinha
+
+</center>
 
 ---
 
-### 🚀 Project 1: [srobotv1]
+### 🚀 Project 1: srobotv1
 
-[Robot1]
+[Robot1 Description Here]
 
-<object data="https://cad.onshape.com" 
-        type="text/html" 
-        width="100%" 
-        height="500px" 
-        style="border: 2px solid #333; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);">
-</object>
+<object data="https://cad.onshape.com" type="text/html" width="100%" height="500px" style="border:2px solid #333; border-radius:10px;"></object>
 
 ---
 
@@ -24,12 +23,7 @@ title: Sanatan Sinha
 
 [Project Description Goes Here]
 
-<object data="https://cad.onshape.com" 
-        type="text/html" 
-        width="100%" 
-        height="500px" 
-        style="border: 2px solid #333; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);">
-</object>
+<object data="https://cad.onshape.com" type="text/html" width="100%" height="500px" style="border:2px solid #333; border-radius:10px;"></object>
 
 ---
 
@@ -37,15 +31,12 @@ title: Sanatan Sinha
 
 [Project Description Goes Here]
 
-<object data="https://cad.onshape.com" 
-        type="text/html" 
-        width="100%" 
-        height="500px" 
-        style="border: 2px solid #333; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);">
-</object>
+<object data="https://cad.onshape.com" type="text/html" width="100%" height="500px" style="border:2px solid #333; border-radius:10px;"></object>
 
 ---
 
 <center>
-  <sub>Created by Sanatan Sinha</sub>
+
+<sub>Created by Sanatan Sinha</sub>
+
 </center>

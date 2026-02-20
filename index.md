@@ -18,17 +18,23 @@ title: Sanatan - Projects
   <hr style="border: 0; border-top: 1px solid #e0e0e0; margin: 50px 0;">
 
   <!-- Project 1 Section -->
-  <section style="margin-bottom: 80px; max-width: 1000px; margin-left: auto; margin-right: auto;">
+  <section style="margin-bottom: 100px; max-width: 1000px; margin-left: auto; margin-right: auto;">
     <h2 style="font-size: 2.4rem; font-weight: 700; color: #202124; margin-bottom: 25px; text-align: center;">
       Project 1: srobotv1
     </h2>
+
+    <!-- Project 1 Hero Image -->
+    <div style="text-align: center; margin-bottom: 35px;">
+      <img src="file:///home/sanatan/Pictures/Screenshots/Screenshot%20from%202026-02-20%2013-59-47.png" alt="srobotv1 Robot Arm" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+    </div>
+
     <div style="font-size: 1.2rem; color: #3c4043; text-align: justify; padding: 0 5%;">
-      Project 1 description goes here. This clean, centered formatting matches the ALOHA project's focus on clarity and professional technical presentation.
+      Project 1 description goes here. The <b>srobotv1</b> is a multi-axis robotic arm designed for high-precision manipulation tasks, as shown in the CAD model above. 
     </div>
   </section>
 
   <!-- Project 2 Section -->
-  <section style="margin-bottom: 80px; max-width: 1000px; margin-left: auto; margin-right: auto;">
+  <section style="margin-bottom: 100px; max-width: 1000px; margin-left: auto; margin-right: auto;">
     <h2 style="font-size: 2.4rem; font-weight: 700; color: #202124; margin-bottom: 25px; text-align: center;">
       Project 2: robot
     </h2>
@@ -38,7 +44,7 @@ title: Sanatan - Projects
   </section>
 
   <!-- Project 3 Section -->
-  <section style="margin-bottom: 80px; max-width: 1000px; margin-left: auto; margin-right: auto;">
+  <section style="margin-bottom: 100px; max-width: 1000px; margin-left: auto; margin-right: auto;">
     <h2 style="font-size: 2.4rem; font-weight: 700; color: #202124; margin-bottom: 25px; text-align: center;">
       Project 3: [Project Name]
     </h2>

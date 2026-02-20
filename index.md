@@ -15,6 +15,7 @@ title: Sanatan - Projects
   }
 
   .delay-1 { animation-delay: 0.2s; }
+  .delay-2 { animation-delay: 0.4s; }
 
   body {
     background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
@@ -29,6 +30,12 @@ title: Sanatan - Projects
     border-radius: 24px;
     padding: 50px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.12);
   }
 
   .cta-button {
@@ -42,6 +49,11 @@ title: Sanatan - Projects
     font-size: 1.1rem;
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   }
+
+  .cta-button:hover {
+    background: #333;
+    transform: scale(1.05);
+  }
 </style>
 
 <div style="width: 100%; margin: 0; padding: 100px 20px; font-family: 'Google Sans', -apple-system, sans-serif; box-sizing: border-box;">
@@ -53,26 +65,42 @@ title: Sanatan - Projects
     <p style="font-size: 1.6rem; color: #888; font-weight: 400; letter-spacing: 1px;">BY SANATAN SINHA</p>
   </header>
 
+  <!-- Project 1 Section -->
   <div class="animate-section delay-1" style="max-width: 1100px; margin: 0 auto 100px auto;">
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; color: #000; margin-bottom: 40px; text-align: center;">srobotv1</h2>
-      
       <div style="text-align: center; margin-bottom: 45px;">
-        <img src="Screenshot from 2026-02-20 13-59-47.jpeg" alt="srobotv1" style="width: 100%; max-width: 950px; border-radius: 16px;">
+        <img src="Screenshot from 2026-02-20 13-59-47.jpeg" alt="srobotv1" style="width: 100%; max-width: 950px; border-radius: 16px; box-shadow: 0 15px 45px rgba(0,0,0,0.1);">
       </div>
-
       <div style="font-size: 1.25rem; color: #444; text-align: justify; padding: 0 5%; line-height: 1.8;">
-        The <b>srobotv1</b> is an advanced 7-axis robotic manipulator engineered for maximum stability and dexterity. 
+        The <b>srobotv1</b> is an advanced 7-axis robotic manipulator engineered for maximum stability and dexterity. By integrating <b>bearings throughout the entire assembly</b>, I eliminated the 1-degree base deflection that typically results in massive precision errors at the gripper.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <!-- FORCED ABSOLUTE LINK -->
-          <a href="https://sanrobo206.github.io/srobotv1/" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
+          <a href="https://sanrobo206.github.io" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
         </div>
       </div>
     </section>
   </div>
 
-  <footer style="margin-top: 150px; text-align: center; color: #aaa; font-size: 1rem; padding-bottom: 60px;">
+  <!-- Project 2 Section: Mobile Fire Detection System -->
+  <div class="animate-section delay-2" style="max-width: 1100px; margin: 0 auto 100px auto;">
+    <section class="project-card">
+      <h2 style="font-size: 2.8rem; font-weight: 700; color: #000; margin-bottom: 40px; text-align: center;">Mobile Fire Detection System</h2>
+      
+      <div style="font-size: 1.25rem; color: #444; text-align: justify; padding: 0 5%; line-height: 1.8;">
+        The <b>Mobile Fire Detection System</b> is an autonomous safety solution designed for rapid response in high-risk environments. This project integrates multi-sensor data fusion to identify heat signatures and smoke patterns in real-time, providing mobile monitoring capabilities that fixed systems lack.
+        <br><br>
+        Focused on mobility and reliability, the system uses custom algorithms to distinguish between false alarms and genuine fire threats, ensuring critical alerts are delivered instantly.
+        <br><br>
+        <div style="text-align: center; margin-top: 40px;">
+          <!-- DIRECT LINK TO MFDS -->
+          <a href="https://sanrobo206.github.io/mfds/" class="cta-button">EXPLORE MORE</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="animate-section" style="margin-top: 150px; text-align: center; color: #aaa; font-size: 1rem; padding-bottom: 60px; text-transform: uppercase; letter-spacing: 3px;">
     Created by <span style="font-weight: 700; color: #111;">Sanatan Sinha</span>
   </footer>
 

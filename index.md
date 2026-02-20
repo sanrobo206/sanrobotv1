@@ -1,5 +1,5 @@
 ---
-layout: default
-title: My New Site
+layout: home
+title: Sanatan Sinha
 ---
-Hello, this is Sanatan Sinha
+by Sanatan Sinha

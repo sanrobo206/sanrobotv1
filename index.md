@@ -23,13 +23,13 @@ title: Sanatan - Projects
       Project 1: srobotv1
     </h2>
 
-    <!-- Project 1 Hero Image -->
+    <!-- Project 1 Image (Using your specific filename) -->
     <div style="text-align: center; margin-bottom: 35px;">
-      <img src="file:///home/sanatan/Pictures/Screenshots/Screenshot%20from%202026-02-20%2013-59-47.png" alt="srobotv1 Robot Arm" style="width: 100%; max-width: 800px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+      <img src="Screenshot from 2026-02-20 13-59-47.png" alt="srobotv1 Robot Arm" style="width: 100%; max-width: 900px; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
     </div>
 
     <div style="font-size: 1.2rem; color: #3c4043; text-align: justify; padding: 0 5%;">
-      Project 1 description goes here. The <b>srobotv1</b> is a multi-axis robotic arm designed for high-precision manipulation tasks, as shown in the CAD model above. 
+      Project 1 description goes here. The <b>srobotv1</b> is a high-precision robotic manipulator designed for complex assembly tasks, as illustrated in the CAD rendering above.
     </div>
   </section>
 
@@ -39,7 +39,7 @@ title: Sanatan - Projects
       Project 2: robot
     </h2>
     <div style="font-size: 1.2rem; color: #3c4043; text-align: justify; padding: 0 5%;">
-      Project 2 description goes here. The use of generous whitespace and neutral tones creates a high-end research lab aesthetic.
+      Project 2 description goes here. This section maintains the clean, white-space heavy aesthetic of the ALOHA project page.
     </div>
   </section>
 
@@ -49,7 +49,7 @@ title: Sanatan - Projects
       Project 3: [Project Name]
     </h2>
     <div style="font-size: 1.2rem; color: #3c4043; text-align: justify; padding: 0 5%;">
-      Project 3 description goes here. This layout remains robust and fills the screen while keeping the content elegantly centered.
+      Project 3 description goes here. Summarize the key findings or future iterations of your robotics work.
     </div>
   </section>
 

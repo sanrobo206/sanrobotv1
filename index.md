@@ -33,7 +33,7 @@ title: Sanatan - Projects
       <br><br>
       Furthermore, by utilizing a <b>seven-axis</b> configuration rather than the industry-standard six, the srobotv1 achieves superior reach and dexterity, allowing it to access a much wider range of positions and orientations within its workspace.
       <br><br>
-      <b>For more details click: <a href="https://sanrobo206.github.io" style="color: #007bff; text-decoration: underline;">https://sanrobo206.github.io</a></b>
+      <b>for more details click: <a href="https://sanrobo206.github.io/srobotv1/">https://sanrobo206.github.io/srobotv1/</a></b>
     </div>
   </section>
 

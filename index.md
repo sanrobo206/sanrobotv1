@@ -29,9 +29,11 @@ title: Sanatan - Projects
     </div>
 
     <div style="font-size: 1.2rem; color: #3c4043; text-align: justify; padding: 0 5%;">
-      The <b>srobotv1</b> is a high-precision, <b>seven-axis</b> robotic manipulator. A core focus of this engineering design is extreme mechanical stability; because the base serves as the foundation, even a minor 1-degree deflection at the bottom results in massive, unmanageable movement at the gripper side. 
+      The <b>srobotv1</b> is an advanced 7-axis robotic manipulator designed for high-precision tasks. A critical engineering challenge addressed in this design is the stability of the robot's base; even a minor 1-degree shift at the foundation translates into significant, amplified movement at the gripper. To eliminate this mechanical play and ensure precision, I integrated <b>bearings throughout the entire assembly</b>.
       <br><br>
-      To solve this, I have integrated <b>bearings throughout the entire assembly</b>, ensuring smooth, rigid rotation at every joint and critical junction. Furthermore, the additional seventh axis provides the arm with significantly greater dexterity and range than a standard 6-axis robot, allowing it to reach complex positions and navigate obstacles with ease.
+      Furthermore, by utilizing a <b>seven-axis</b> configuration rather than the industry-standard six, the srobotv1 achieves superior reach and dexterity, allowing it to access a much wider range of positions and orientations within its workspace.
+      <br><br>
+      <b>for more details click: [https://sanrobo206.github.io/srobotv1/](https://sanrobo206.github.io/srobotv1/)</b>
     </div>
   </section>
 
@@ -41,7 +43,7 @@ title: Sanatan - Projects
       Project 2: robot
     </h2>
     <div style="font-size: 1.2rem; color: #3c4043; text-align: justify; padding: 0 5%;">
-      Project 2 description goes here.
+      Project 2 description goes here. This section maintains the clean, white-space heavy aesthetic of the ALOHA project page.
     </div>
   </section>
 
@@ -51,7 +53,7 @@ title: Sanatan - Projects
       Project 3: [Project Name]
     </h2>
     <div style="font-size: 1.2rem; color: #3c4043; text-align: justify; padding: 0 5%;">
-      Project 3 description goes here.
+      Project 3 description goes here. Summarize the key findings or future iterations of your robotics work.
     </div>
   </section>
 

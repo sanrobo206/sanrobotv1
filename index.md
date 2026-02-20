@@ -87,6 +87,12 @@ title: Sanatan - Projects
   <div class="animate-section delay-2" style="max-width: 1100px; margin: 0 auto 100px auto;">
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; color: #000; margin-bottom: 40px; text-align: center;">Mobile Fire Detection System</h2>
+      
+      <!-- Rover Image Added Here -->
+      <div style="text-align: center; margin-bottom: 45px;">
+        <img src="rover-cad.jpeg" alt="Mobile Fire Detection System Rover" style="width: 100%; max-width: 950px; border-radius: 16px; box-shadow: 0 15px 45px rgba(0,0,0,0.1);">
+      </div>
+
       <div style="font-size: 1.25rem; color: #444; text-align: justify; padding: 0 5%; line-height: 1.8;">
         The <b>Mobile Fire Detection System</b> is an autonomous safety solution designed for rapid response in high-risk environments. This project integrates multi-sensor data fusion to identify heat signatures and smoke patterns in real-time.
         <br><br>

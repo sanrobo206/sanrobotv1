@@ -53,6 +53,7 @@ title: Sanatan - Projects
     font-size: 1.1rem;
     transition: 0.3s;
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    cursor: pointer;
   }
 
   .cta-button:hover {
@@ -77,7 +78,6 @@ title: Sanatan - Projects
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; color: #000; margin-bottom: 40px; text-align: center; letter-spacing: -0.02em;">srobotv1</h2>
       
-      <!-- Using the JPEG version of your screenshot -->
       <div style="text-align: center; margin-bottom: 45px;">
         <img src="Screenshot from 2026-02-20 13-59-47.jpeg" alt="srobotv1 Robot Arm" style="width: 100%; max-width: 950px; border-radius: 16px; box-shadow: 0 15px 45px rgba(0,0,0,0.1);">
       </div>
@@ -88,13 +88,14 @@ title: Sanatan - Projects
         Utilizing a unique <b>seven-axis</b> configuration, the srobotv1 achieves superior reach and maneuverability compared to standard 6-axis arms.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
+          <!-- Clickable button to your subpage -->
+          <a href="https://sanrobo206.github.io/srobotv1/" target="_blank" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
         </div>
       </div>
     </section>
   </div>
 
-  <!-- Project 2 Section (Placeholder) -->
+  <!-- Project 2 Section -->
   <div class="animate-section delay-2" style="max-width: 1100px; margin: 0 auto 100px auto;">
     <section class="project-card" style="text-align: center; padding: 60px;">
       <h2 style="font-size: 2.2rem; font-weight: 700; color: #000; margin-bottom: 20px;">Project 2: robot</h2>

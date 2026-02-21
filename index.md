@@ -19,24 +19,23 @@ title: Sanatan - Projects
   .delay-3 { animation-delay: 0.6s; }
 
   body {
-    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    background: #ffffff;
     min-height: 100vh;
     margin: 0;
   }
 
   .project-card {
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: #ffffff;
+    border: 1px solid #eeeeee;
     border-radius: 24px;
     padding: 50px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.04);
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
   .project-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 30px 60px rgba(0,0,0,0.12);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.08);
   }
 
   .cta-button {
@@ -62,11 +61,11 @@ title: Sanatan - Projects
     border-radius: 16px;
     margin-bottom: 45px;
     text-align: center;
-    box-shadow: 0 15px 45px rgba(0,0,0,0.1);
+    border: 1px solid #f5f5f5;
   }
 </style>
 
-<div style="width: 100%; margin: 0; padding: 100px 20px; font-family: 'Google Sans', -apple-system, sans-serif; box-sizing: border-box;">
+<div style="width: 100%; margin: 0; padding: 100px 20px; font-family: 'Google Sans', -apple-system, sans-serif; box-sizing: border-box; background: #ffffff;">
 
   <header class="animate-section" style="text-align: center; margin-bottom: 100px;">
     <h1 style="font-size: 4.5rem; font-weight: 800; color: #111; margin-bottom: 10px; letter-spacing: -0.06em;">
@@ -114,7 +113,7 @@ title: Sanatan - Projects
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; color: #000; margin-bottom: 40px; text-align: center;">sHUMANOID v.1</h2>
       <div class="img-white-bg">
-        <img src="humanoid.jpeg" alt="sHUMANOID v.1" style="width: 100%; max-width: 950px; border-radius: 12px; display: block; margin: 0 auto;">
+        <img src="humanoidrobot.png" alt="sHUMANOID v.1" style="width: 100%; max-width: 950px; border-radius: 12px; display: block; margin: 0 auto;">
       </div>
       <div style="font-size: 1.25rem; color: #444; text-align: justify; padding: 0 5%; line-height: 1.8;">
         The <b>sHUMANOID v.1</b> is a mobile humanoid platform engineered for complex manipulation and high-mobility navigation. Built entirely from a robust <b>extruded aluminum</b> frame, the robot features a <b>mecanum wheel</b> base for omnidirectional movement. 

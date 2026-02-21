@@ -52,7 +52,7 @@ title: Sanatan - Projects
     border-radius: 50px;
     font-weight: 700;
     font-size: 1.1rem;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   }
 
   .cta-button:hover {
@@ -124,7 +124,7 @@ title: Sanatan - Projects
         The <b>sHUMANOID v.1</b> is a mobile humanoid platform engineered for complex manipulation and high-mobility navigation. Built entirely from a robust <b>extruded aluminum</b> frame, the robot features a <b>mecanum wheel</b> base for omnidirectional movement. 
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io/shumanoidv1" class="cta-button">DIVE DEEPER</a>
+          <a href="https://sanrobo206.github.io" class="cta-button">DIVE DEEPER</a>
         </div>
       </div>
     </section>
@@ -141,7 +141,7 @@ title: Sanatan - Projects
         The <b>sGRIPPER v.1</b> is a high-precision end-effector featuring an industrial <b>MGN 7 linear rail</b> and a custom <b>cam-based</b> actuation mechanism. This design provides parallel finger movement and high mechanical advantage for secure grasping.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io/sgripperv1" class="cta-button">EXPLORE MORE INSIDE THE PROJECT</a>
+          <a href="https://sanrobo206.github.io" class="cta-button">EXPLORE MORE INSIDE THE PROJECT</a>
         </div>
       </div>
     </section>

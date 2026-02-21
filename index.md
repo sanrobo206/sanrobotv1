@@ -36,7 +36,7 @@ title: Sanatan - Projects
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 32px;
-    padding: 80px 60px; /* Bigger sections */
+    padding: 80px 60px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.05);
     transition: all 0.5s ease;
     margin-bottom: 80px;
@@ -71,7 +71,8 @@ title: Sanatan - Projects
     border-radius: 100px;
     font-weight: 700;
     font-size: 1rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     transition: all 0.3s ease;
     box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
   }
@@ -116,7 +117,7 @@ title: Sanatan - Projects
       <div class="project-description">
         The <b>srobotv1</b> is an advanced 7-axis robotic manipulator engineered for maximum stability and dexterity. By integrating <b>bearings throughout the entire assembly</b>, I eliminated the 1-degree base deflection that typically results in massive precision errors at the gripper.
         <div style="text-align: center; margin-top: 50px;">
-          <a href="https://sanrobo206.github.io/srobotv1/" class="cta-button">VIEW TECHNICAL CASE STUDY</a>
+          <a href="https://sanrobo206.github.io/srobotv1/" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
         </div>
       </div>
     </section>
@@ -132,7 +133,7 @@ title: Sanatan - Projects
       <div class="project-description">
         An autonomous safety solution designed for rapid response in high-risk environments. This project integrates <b>multi-sensor data fusion</b> to identify heat signatures and smoke patterns in real-time, providing a mobile shield against industrial hazards.
         <div style="text-align: center; margin-top: 50px;">
-          <a href="https://sanrobo206.github.io/mfds/" class="cta-button">EXPLORE SYSTEMS DESIGN</a>
+          <a href="https://sanrobo206.github.io/mfds/" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
         </div>
       </div>
     </section>
@@ -148,7 +149,7 @@ title: Sanatan - Projects
       <div class="project-description">
         A mobile humanoid platform engineered for complex manipulation. Built with a robust <b>extruded aluminum</b> frame, the robot features a <b>mecanum wheel base</b> for omnidirectional movement, blending industrial strength with fluid agility.
         <div style="text-align: center; margin-top: 50px;">
-          <a href="https://sanrobo206.github.io/shumanoidv1" class="cta-button">DIVE INTO KINEMATICS</a>
+          <a href="https://sanrobo206.github.io/shumanoidv1" class="cta-button">DIVE DEEPER</a>
         </div>
       </div>
     </section>
@@ -164,7 +165,7 @@ title: Sanatan - Projects
       <div class="project-description">
         A high-precision end-effector featuring an industrial <b>MGN 7 linear rail</b> and a custom <b>cam-based actuation</b> mechanism. This architecture provides perfect parallel finger movement and high mechanical advantage.
         <div style="text-align: center; margin-top: 50px;">
-          <a href="https://sanrobo206.github.io/sgripperv1" class="cta-button">TECHNICAL SPECS</a>
+          <a href="https://sanrobo206.github.io/sgripperv1" class="cta-button">EXPLORE MORE INSIDE THE PROJECT</a>
         </div>
       </div>
     </section>

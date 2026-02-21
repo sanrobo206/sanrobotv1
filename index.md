@@ -16,6 +16,7 @@ title: Sanatan - Projects
 
   .delay-1 { animation-delay: 0.2s; }
   .delay-2 { animation-delay: 0.4s; }
+  .delay-3 { animation-delay: 0.6s; }
 
   body {
     background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
@@ -76,7 +77,7 @@ title: Sanatan - Projects
         The <b>srobotv1</b> is an advanced 7-axis robotic manipulator engineered for maximum stability and dexterity. By integrating <b>bearings throughout the entire assembly</b>, I eliminated the 1-degree base deflection that typically results in massive precision errors at the gripper.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <!-- PATH: srobotv1 -->
+          <!-- CORRECTED LINK 1 WITH PATH -->
           <a href="https://sanrobo206.github.io/srobotv1/" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
         </div>
       </div>
@@ -94,8 +95,25 @@ title: Sanatan - Projects
         The <b>Mobile Fire Detection System</b> is an autonomous safety solution designed for rapid response in high-risk environments. This project integrates multi-sensor data fusion to identify heat signatures and smoke patterns in real-time.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <!-- PATH: mfds -->
+          <!-- CORRECTED LINK 2 WITH PATH -->
           <a href="https://sanrobo206.github.io/mfds/" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Project 3 Section -->
+  <div class="animate-section delay-3" style="max-width: 1100px; margin: 0 auto 100px auto;">
+    <section class="project-card">
+      <h2 style="font-size: 2.8rem; font-weight: 700; color: #000; margin-bottom: 40px; text-align: center;">sHUMANOID v.1</h2>
+      <div style="font-size: 1.25rem; color: #444; text-align: justify; padding: 0 5%; line-height: 1.8;">
+        The <b>sHUMANOID v.1</b> is a mobile humanoid platform engineered for complex manipulation and high-mobility navigation. Built entirely from a robust <b>extruded aluminum</b> frame, the robot features a <b>mecanum wheel</b> base for omnidirectional movement. 
+        <br><br>
+        For high-dexterity interaction, the system utilizes a <b>bimanual setup</b> incorporating two <b>sROBOT v.1</b> robotic arms, allowing for coordinated dual-arm tasks and advanced research into mobile manipulation.
+        <br><br>
+        <div style="text-align: center; margin-top: 40px;">
+          <!-- CORRECTED LINK 3 WITH PATH -->
+          <a href="https://sanrobo206.github.io/shumanoidv1/" class="cta-button">DIVE DEEPER</a>
         </div>
       </div>
     </section>

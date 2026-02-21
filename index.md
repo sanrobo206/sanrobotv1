@@ -104,9 +104,8 @@ title: Sanatan - Projects
   <div class="animate-section delay-3" style="max-width: 1100px; margin: 0 auto 100px auto;">
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; color: #000; margin-bottom: 40px; text-align: center;">sHUMANOID v.1</h2>
-      <!-- NEW IMAGE ADDED BELOW -->
       <div style="text-align: center; margin-bottom: 45px;">
-        <img src="humanoid.png" alt="sHUMANOID v.1" style="width: 100%; max-width: 950px; border-radius: 16px; box-shadow: 0 15px 45px rgba(0,0,0,0.1);">
+        <img src="humanoid.png" alt="sHUMANOID v.1" style="width: 100%; max-width: 950px; height: 500px; object-fit: cover; object-position: 50% 100%; border-radius: 16px; box-shadow: 0 15px 45px rgba(0,0,0,0.1);">
       </div>
       <div style="font-size: 1.25rem; color: #444; text-align: justify; padding: 0 5%; line-height: 1.8;">
         The <b>sHUMANOID v.1</b> is a mobile humanoid platform engineered for complex manipulation and high-mobility navigation. Built entirely from a robust <b>extruded aluminum</b> frame, the robot features a <b>mecanum wheel</b> base for omnidirectional movement. 

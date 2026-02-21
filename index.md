@@ -17,6 +17,7 @@ title: Sanatan - Projects
   .delay-1 { animation-delay: 0.2s; }
   .delay-2 { animation-delay: 0.4s; }
   .delay-3 { animation-delay: 0.6s; }
+  .delay-4 { animation-delay: 0.8s; } /* New delay for 4th section */
 
   body {
     background: #e0f2fe; /* Light Blue Background */
@@ -25,7 +26,6 @@ title: Sanatan - Projects
   }
 
   .project-card {
-    /* Blue Gradient Background */
     background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 24px;
@@ -34,7 +34,6 @@ title: Sanatan - Projects
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
-  /* Adjust text colors for readability on blue background */
   .project-card h2 { color: #ffffff !important; }
   .project-card div { color: #e0e7ff !important; }
   .project-card b { color: #ffffff !important; }
@@ -91,7 +90,7 @@ title: Sanatan - Projects
         The <b>srobotv1</b> is an advanced 7-axis robotic manipulator engineered for maximum stability and dexterity. By integrating <b>bearings throughout the entire assembly</b>, I eliminated the 1-degree base deflection that typically results in massive precision errors at the gripper.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io/srobotv1/" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
+          <a href="https://sanrobo206.github.io" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
         </div>
       </div>
     </section>
@@ -108,7 +107,7 @@ title: Sanatan - Projects
         The <b>Mobile Fire Detection System</b> is an autonomous safety solution designed for rapid response in high-risk environments. This project integrates multi-sensor data fusion to identify heat signatures and smoke patterns in real-time.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io/mfds/" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
+          <a href="https://sanrobo206.github.io" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
         </div>
       </div>
     </section>
@@ -124,10 +123,25 @@ title: Sanatan - Projects
       <div style="font-size: 1.25rem; text-align: justify; padding: 0 5%; line-height: 1.8;">
         The <b>sHUMANOID v.1</b> is a mobile humanoid platform engineered for complex manipulation and high-mobility navigation. Built entirely from a robust <b>extruded aluminum</b> frame, the robot features a <b>mecanum wheel</b> base for omnidirectional movement. 
         <br><br>
-        For high-dexterity interaction, the system utilizes a <b>bimanual setup</b> incorporating two <b>sROBOT v.1</b> robotic arms, allowing for coordinated dual-arm tasks and advanced research into mobile manipulation.
+        <div style="text-align: center; margin-top: 40px;">
+          <a href="https://sanrobo206.github.io" class="cta-button">DIVE DEEPER</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Project 4 Section: sGRIPPER v.1 -->
+  <div class="animate-section delay-4" style="max-width: 1100px; margin: 0 auto 100px auto;">
+    <section class="project-card">
+      <h2 style="font-size: 2.8rem; font-weight: 700; margin-bottom: 40px; text-align: center;">sGRIPPER v.1</h2>
+      <div class="img-white-bg">
+        <img src="IMG_6587-removebg-preview.png" alt="sGRIPPER v.1" style="width: 100%; max-width: 950px; border-radius: 12px; display: block; margin: 0 auto;">
+      </div>
+      <div style="font-size: 1.25rem; text-align: justify; padding: 0 5%; line-height: 1.8;">
+        The <b>sGRIPPER v.1</b> is a high-precision end-effector featuring an industrial <b>MGN 7 linear rail</b> and a custom <b>cam-based</b> actuation mechanism. This design provides parallel finger movement and high mechanical advantage for secure grasping.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io/shumanoidv1/" class="cta-button">DIVE DEEPER</a>
+          <a href="https://sanrobo206.github.io" class="cta-button">EXPLORE MORE INSIDE THE PROJECT</a>
         </div>
       </div>
     </section>

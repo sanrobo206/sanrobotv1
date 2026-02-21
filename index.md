@@ -112,7 +112,7 @@ title: Sanatan - Projects
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">srobotv1</h2>
       <div class="image-container">
-        <img src="Screenshot from 2026-02-20 13-59-47.jpeg" alt="srobotv1">
+        <img src="Screenshot from 2026-02-20 13-59-47.jpeg" alt="sROBOT v.1">
       </div>
       <div class="project-description">
         The <b>srobotv1</b> is an advanced 7-axis robotic manipulator engineered for maximum stability and dexterity. By integrating <b>bearings throughout the entire assembly</b>, I eliminated the 1-degree base deflection that typically results in massive precision errors at the gripper.

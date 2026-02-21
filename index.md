@@ -55,6 +55,15 @@ title: Sanatan - Projects
     background: #333;
     transform: scale(1.05);
   }
+
+  .img-white-bg {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 45px;
+    text-align: center;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.1);
+  }
 </style>
 
 <div style="width: 100%; margin: 0; padding: 100px 20px; font-family: 'Google Sans', -apple-system, sans-serif; box-sizing: border-box;">
@@ -70,8 +79,8 @@ title: Sanatan - Projects
   <div class="animate-section delay-1" style="max-width: 1100px; margin: 0 auto 100px auto;">
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; color: #000; margin-bottom: 40px; text-align: center;">srobotv1</h2>
-      <div style="text-align: center; margin-bottom: 45px;">
-        <img src="Screenshot from 2026-02-20 13-59-47.jpeg" alt="srobotv1" style="width: 100%; max-width: 950px; border-radius: 16px; box-shadow: 0 15px 45px rgba(0,0,0,0.1);">
+      <div class="img-white-bg">
+        <img src="Screenshot from 2026-02-20 13-59-47.jpeg" alt="srobotv1" style="width: 100%; max-width: 950px; border-radius: 12px; display: block; margin: 0 auto;">
       </div>
       <div style="font-size: 1.25rem; color: #444; text-align: justify; padding: 0 5%; line-height: 1.8;">
         The <b>srobotv1</b> is an advanced 7-axis robotic manipulator engineered for maximum stability and dexterity. By integrating <b>bearings throughout the entire assembly</b>, I eliminated the 1-degree base deflection that typically results in massive precision errors at the gripper.
@@ -87,8 +96,8 @@ title: Sanatan - Projects
   <div class="animate-section delay-2" style="max-width: 1100px; margin: 0 auto 100px auto;">
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; color: #000; margin-bottom: 40px; text-align: center;">Mobile Fire Detection System</h2>
-      <div style="text-align: center; margin-bottom: 45px;">
-        <img src="rover-cad.jpeg" alt="Mobile Fire Detection System Rover" style="width: 100%; max-width: 950px; border-radius: 16px; box-shadow: 0 15px 45px rgba(0,0,0,0.1);">
+      <div class="img-white-bg">
+        <img src="rover-cad.jpeg" alt="Mobile Fire Detection System Rover" style="width: 100%; max-width: 950px; border-radius: 12px; display: block; margin: 0 auto;">
       </div>
       <div style="font-size: 1.25rem; color: #444; text-align: justify; padding: 0 5%; line-height: 1.8;">
         The <b>Mobile Fire Detection System</b> is an autonomous safety solution designed for rapid response in high-risk environments. This project integrates multi-sensor data fusion to identify heat signatures and smoke patterns in real-time.
@@ -104,8 +113,8 @@ title: Sanatan - Projects
   <div class="animate-section delay-3" style="max-width: 1100px; margin: 0 auto 100px auto;">
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; color: #000; margin-bottom: 40px; text-align: center;">sHUMANOID v.1</h2>
-      <div style="text-align: center; margin-bottom: 45px;">
-        <img src="humanoid.jpeg" alt="sHUMANOID v.1" style="width: 100%; max-width: 950px; border-radius: 16px; box-shadow: 0 15px 45px rgba(0,0,0,0.1);">
+      <div class="img-white-bg">
+        <img src="humanoid.jpeg" alt="sHUMANOID v.1" style="width: 100%; max-width: 950px; border-radius: 12px; display: block; margin: 0 auto;">
       </div>
       <div style="font-size: 1.25rem; color: #444; text-align: justify; padding: 0 5%; line-height: 1.8;">
         The <b>sHUMANOID v.1</b> is a mobile humanoid platform engineered for complex manipulation and high-mobility navigation. Built entirely from a robust <b>extruded aluminum</b> frame, the robot features a <b>mecanum wheel</b> base for omnidirectional movement. 

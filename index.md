@@ -90,7 +90,7 @@ title: Sanatan - Projects
         The <b>srobotv1</b> is an advanced 7-axis robotic manipulator engineered for maximum stability and dexterity. By integrating <b>bearings throughout the entire assembly</b>, I eliminated the 1-degree base deflection that typically results in massive precision errors at the gripper.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
+          <a href="https://sanrobo206.github.io/srobotv1/" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
         </div>
       </div>
     </section>
@@ -107,7 +107,7 @@ title: Sanatan - Projects
         The <b>Mobile Fire Detection System</b> is an autonomous safety solution designed for rapid response in high-risk environments. This project integrates multi-sensor data fusion to identify heat signatures and smoke patterns in real-time.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
+          <a href="https://sanrobo206.github.io/mfds/" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
         </div>
       </div>
     </section>
@@ -124,7 +124,7 @@ title: Sanatan - Projects
         The <b>sHUMANOID v.1</b> is a mobile humanoid platform engineered for complex manipulation and high-mobility navigation. Built entirely from a robust <b>extruded aluminum</b> frame, the robot features a <b>mecanum wheel</b> base for omnidirectional movement. 
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io" class="cta-button">DIVE DEEPER</a>
+          <a href="https://sanrobo206.github.io/shumanoidv1" class="cta-button">DIVE DEEPER</a>
         </div>
       </div>
     </section>
@@ -141,7 +141,7 @@ title: Sanatan - Projects
         The <b>sGRIPPER v.1</b> is a high-precision end-effector featuring an industrial <b>MGN 7 linear rail</b> and a custom <b>cam-based</b> actuation mechanism. This design provides parallel finger movement and high mechanical advantage for secure grasping.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io" class="cta-button">EXPLORE MORE INSIDE THE PROJECT</a>
+          <a href="https://sanrobo206.github.io/sgripperv1" class="cta-button">EXPLORE MORE INSIDE THE PROJECT</a>
         </div>
       </div>
     </section>

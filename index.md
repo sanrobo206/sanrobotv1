@@ -17,7 +17,7 @@ title: Sanatan - Projects
   .delay-1 { animation-delay: 0.2s; }
   .delay-2 { animation-delay: 0.4s; }
   .delay-3 { animation-delay: 0.6s; }
-  .delay-4 { animation-delay: 0.8s; } /* New delay for 4th section */
+  .delay-4 { animation-delay: 0.8s; }
 
   body {
     background: #e0f2fe; /* Light Blue Background */
@@ -32,6 +32,7 @@ title: Sanatan - Projects
     padding: 50px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    margin-bottom: 50px;
   }
 
   .project-card h2 { color: #ffffff !important; }
@@ -80,7 +81,7 @@ title: Sanatan - Projects
   </header>
 
   <!-- Project 1 Section -->
-  <div class="animate-section delay-1" style="max-width: 1100px; margin: 0 auto 100px auto;">
+  <div class="animate-section delay-1" style="max-width: 1100px; margin: 0 auto;">
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; margin-bottom: 40px; text-align: center;">srobotv1</h2>
       <div class="img-white-bg">
@@ -97,7 +98,7 @@ title: Sanatan - Projects
   </div>
 
   <!-- Project 2 Section -->
-  <div class="animate-section delay-2" style="max-width: 1100px; margin: 0 auto 100px auto;">
+  <div class="animate-section delay-2" style="max-width: 1100px; margin: 0 auto;">
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; margin-bottom: 40px; text-align: center;">Mobile Fire Detection System</h2>
       <div class="img-white-bg">
@@ -114,7 +115,7 @@ title: Sanatan - Projects
   </div>
 
   <!-- Project 3 Section -->
-  <div class="animate-section delay-3" style="max-width: 1100px; margin: 0 auto 100px auto;">
+  <div class="animate-section delay-3" style="max-width: 1100px; margin: 0 auto;">
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; margin-bottom: 40px; text-align: center;">sHUMANOID v.1</h2>
       <div class="img-white-bg">
@@ -124,24 +125,24 @@ title: Sanatan - Projects
         The <b>sHUMANOID v.1</b> is a mobile humanoid platform engineered for complex manipulation and high-mobility navigation. Built entirely from a robust <b>extruded aluminum</b> frame, the robot features a <b>mecanum wheel</b> base for omnidirectional movement. 
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io" class="cta-button">DIVE DEEPER</a>
+          <a href="https://sanrobo206.github.io/shumanoidv1" class="cta-button">DIVE DEEPER</a>
         </div>
       </div>
     </section>
   </div>
 
   <!-- Project 4 Section: sGRIPPER v.1 -->
-  <div class="animate-section delay-4" style="max-width: 1100px; margin: 0 auto 100px auto;">
+  <div class="animate-section delay-4" style="max-width: 1100px; margin: 0 auto;">
     <section class="project-card">
       <h2 style="font-size: 2.8rem; font-weight: 700; margin-bottom: 40px; text-align: center;">sGRIPPER v.1</h2>
       <div class="img-white-bg">
-        <img src="IMG_6587-removebg-preview.png" alt="sGRIPPER v.1" style="width: 100%; max-width: 950px; border-radius: 12px; display: block; margin: 0 auto;">
+        <img src="IMG_6587-removebg-preview.png" alt="sGRIPPER v.1" style="width: 100%; max-width: 600px; border-radius: 12px; display: block; margin: 0 auto;">
       </div>
       <div style="font-size: 1.25rem; text-align: justify; padding: 0 5%; line-height: 1.8;">
         The <b>sGRIPPER v.1</b> is a high-precision end-effector featuring an industrial <b>MGN 7 linear rail</b> and a custom <b>cam-based</b> actuation mechanism. This design provides parallel finger movement and high mechanical advantage for secure grasping.
         <br><br>
         <div style="text-align: center; margin-top: 40px;">
-          <a href="https://sanrobo206.github.io" class="cta-button">EXPLORE MORE INSIDE THE PROJECT</a>
+          <a href="https://sanrobo206.github.io/sgripperv1" class="cta-button">EXPLORE MORE INSIDE THE PROJECT</a>
         </div>
       </div>
     </section>

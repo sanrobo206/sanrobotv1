@@ -107,10 +107,10 @@ title: Sanatan - Projects
     <p style="font-size: 1.2rem; color: #64748b; font-weight: 600; letter-spacing: 4px; text-transform: uppercase;">Engineering Portfolio</p>
   </header>
 
-  <!-- Project 1: srobotv1 -->
+  <!-- Project 1: sROBOT v.1 -->
   <div class="animate-section delay-1">
     <section class="project-card">
-      <h2 style="text-align: center; margin-bottom: 50px;">srobotv1</h2>
+      <h2 style="text-align: center; margin-bottom: 50px;">sROBOT v.1</h2>
       <div class="image-container">
         <img src="Screenshot from 2026-02-20 13-59-47.jpeg" alt="sROBOT v.1">
       </div>

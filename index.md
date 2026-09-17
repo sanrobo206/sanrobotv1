@@ -126,6 +126,9 @@ title: Sanatan - Projects
   <div class="animate-section delay-2">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">SR2i</h2>
+      <div class="image-container" style="max-width: 900px; margin-left: auto; margin-right: auto;">
+        <img src="{{ '/sr2i.jpg' | relative_url }}" alt="SR2i lightweight industrial 7-axis robotic arm">
+      </div>
       <div class="project-description">
         SR2i is a lightweight, industrial <b>7-axis robotic arm</b> constructed from carbon fiber and aluminum. Precision ball bearings support smooth, rigid joint motion, while its high-performance mechanical design achieves <b>0.1 mm repeatability</b> for accurate and versatile manipulation.
       </div>

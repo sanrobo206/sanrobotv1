@@ -360,7 +360,7 @@ title: SanRobot — Advanced Robotic Systems
         <img src="{{ '/sanscara.jpg' | relative_url }}" alt="SanSCARA industrial aluminum robotic system">
       </div>
       <div class="project-description">
-        SanSCARA is a unique hybrid, industrial-quality <b>7-axis SCARA robot</b> built from CNC-machined aluminum parts for rigidity and precision. It delivers <b>0.05 mm repeatability</b> and extends the traditional SCARA architecture with a roll-yaw-pitch wrist at the end, enabling flexible tool orientation across a broad working envelope.
+        SanSCARA is a unique hybrid, industrial-quality <b>7-axis SCARA robot</b>. Its aluminum components are CNC machined for rigidity and precision. It delivers <b>0.05 mm repeatability</b> and extends the traditional SCARA architecture with a roll-yaw-pitch wrist at the end, enabling flexible tool orientation across a broad working envelope.
       </div>
     </section>
   </div>

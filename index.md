@@ -31,6 +31,7 @@ title: Sanatan - Projects
   .delay-3 { animation-delay: 0.5s; }
   .delay-4 { animation-delay: 0.7s; }
   .delay-5 { animation-delay: 0.9s; }
+  .delay-6 { animation-delay: 1.1s; }
 
   .project-card {
     background: rgba(255, 255, 255, 0.8);
@@ -116,13 +117,23 @@ title: Sanatan - Projects
         <img src="{{ '/sanscara.jpg' | relative_url }}" alt="SanSCARA industrial aluminum robotic system">
       </div>
       <div class="project-description">
-        An industrial-quality robotic system built from <b>CNC-machined aluminum</b> for rigidity, precision, and dependable operation. SanSCARA combines an extended linear workspace with an articulated arm, multi-axis wrist, and precision gripper to support flexible manipulation across a broad range of applications.
+        SanSCARA is a unique hybrid, industrial-quality <b>7-axis SCARA robot</b> built from CNC-machined parts for rigidity and precision. It delivers <b>0.05 mm repeatability</b> and extends the traditional SCARA architecture with a roll-yaw-pitch wrist at the end, enabling flexible tool orientation across a broad working envelope.
       </div>
     </section>
   </div>
 
-  <!-- Project 2: sROBOT v.1 -->
+  <!-- Project 2: SR2i -->
   <div class="animate-section delay-2">
+    <section class="project-card">
+      <h2 style="text-align: center; margin-bottom: 50px;">SR2i</h2>
+      <div class="project-description">
+        SR2i is a lightweight, industrial <b>7-axis robotic arm</b> constructed from carbon fiber and aluminum. Precision ball bearings support smooth, rigid joint motion, while its high-performance mechanical design achieves <b>0.1 mm repeatability</b> for accurate and versatile manipulation.
+      </div>
+    </section>
+  </div>
+
+  <!-- Project 3: sROBOT v.1 -->
+  <div class="animate-section delay-3">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">sROBOT v.1</h2>
       <div class="image-container">
@@ -137,8 +148,8 @@ title: Sanatan - Projects
     </section>
   </div>
 
-  <!-- Project 3: Mobile Fire Detection -->
-  <div class="animate-section delay-3">
+  <!-- Project 4: Mobile Fire Detection -->
+  <div class="animate-section delay-4">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">Fire Detection Rover</h2>
       <div class="image-container">
@@ -153,8 +164,8 @@ title: Sanatan - Projects
     </section>
   </div>
 
-  <!-- Project 4: sHUMANOID v.1 -->
-  <div class="animate-section delay-4">
+  <!-- Project 5: sHUMANOID v.1 -->
+  <div class="animate-section delay-5">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">sHUMANOID v.1</h2>
       <div class="image-container">
@@ -169,8 +180,8 @@ title: Sanatan - Projects
     </section>
   </div>
 
-  <!-- Project 5: sGRIPPER v.1 -->
-  <div class="animate-section delay-5">
+  <!-- Project 6: sGRIPPER v.1 -->
+  <div class="animate-section delay-6">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">sGRIPPER v.1</h2>
       <div class="image-container" style="max-width: 800px; margin-left: auto; margin-right: auto;">

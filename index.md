@@ -144,7 +144,7 @@ title: Sanatan - Projects
         <img src="{{ '/sgripper-ultralight.jpg' | relative_url }}" alt="sGripper Ultra-Lightweight rack-and-pinion gripper">
       </div>
       <div class="project-description">
-        An ultra-lightweight <b>rack-and-pinion gripper</b> that replaces conventional MGN rails with pultruded carbon-fiber guides and a lightweight carriage. A miniature ball bearing keeps each rack firmly engaged with the pinion, preventing it from twisting or lifting away during operation. At just <b>150 grams including the motor</b>, it is significantly lighter than other grippers of comparable quality while retaining a precise, rigid mechanism.
+        An ultra-lightweight <b>rack-and-pinion gripper</b> that replaces conventional MGN rails with pultruded carbon-fiber guides, a <b>Delrin slider</b>, and a lightweight carriage. A miniature ball bearing keeps each rack firmly engaged with the pinion, preventing it from twisting or lifting away during operation. At just <b>150 grams including the motor</b>, it is significantly lighter than other grippers of comparable quality while retaining a precise, rigid mechanism.
       </div>
     </section>
   </div>

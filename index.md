@@ -30,6 +30,7 @@ title: Sanatan - Projects
   .delay-2 { animation-delay: 0.3s; }
   .delay-3 { animation-delay: 0.5s; }
   .delay-4 { animation-delay: 0.7s; }
+  .delay-5 { animation-delay: 0.9s; }
 
   .project-card {
     background: rgba(255, 255, 255, 0.8);
@@ -166,6 +167,22 @@ title: Sanatan - Projects
         A high-precision end-effector featuring an industrial <b>MGN 7 linear rail</b> and a custom <b>cam-based actuation</b> mechanism. This architecture provides perfect parallel finger movement and high mechanical advantage.
         <div style="text-align: center; margin-top: 50px;">
           <a href="https://sanrobo206.github.io/sgripperv1" class="cta-button">EXPLORE MORE INSIDE THE PROJECT</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Project 5: SanSCARA -->
+  <div class="animate-section delay-5">
+    <section class="project-card">
+      <h2 style="text-align: center; margin-bottom: 50px;">SanSCARA</h2>
+      <div class="image-container" style="max-width: 720px; margin-left: auto; margin-right: auto;">
+        <img src="{{ '/sanscara.jpg' | relative_url }}" alt="SanSCARA industrial aluminum robotic system">
+      </div>
+      <div class="project-description">
+        An industrial-quality SCARA system built from <b>CNC-machined aluminum</b> with dedicated <b>Y and Z linear rails</b>. Its two primary joints pair Robstride 00 and Robstride 05 motors with rigid, preloaded conical-bearing supports, while Feetech STS3250 servos control the roll-yaw-pitch wrist and rack-and-pinion gripper.
+        <div style="text-align: center; margin-top: 50px;">
+          <a href="{{ '/sanscara.html' | relative_url }}" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
         </div>
       </div>
     </section>

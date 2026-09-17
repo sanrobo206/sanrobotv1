@@ -32,6 +32,7 @@ title: Sanatan - Projects
   .delay-4 { animation-delay: 0.7s; }
   .delay-5 { animation-delay: 0.9s; }
   .delay-6 { animation-delay: 1.1s; }
+  .delay-7 { animation-delay: 1.3s; }
 
   .project-card {
     background: rgba(255, 255, 255, 0.8);
@@ -135,8 +136,21 @@ title: Sanatan - Projects
     </section>
   </div>
 
-  <!-- Project 3: sROBOT v.1 -->
+  <!-- Project 3: sGripper Ultra-Lightweight -->
   <div class="animate-section delay-3">
+    <section class="project-card">
+      <h2 style="text-align: center; margin-bottom: 50px;">sGripper Ultra-Lightweight</h2>
+      <div class="image-container" style="max-width: 900px; margin-left: auto; margin-right: auto;">
+        <img src="{{ '/sgripper-ultralight.jpg' | relative_url }}" alt="sGripper Ultra-Lightweight rack-and-pinion gripper">
+      </div>
+      <div class="project-description">
+        An ultra-lightweight <b>rack-and-pinion gripper</b> that replaces conventional MGN rails with pultruded carbon-fiber guides and a lightweight carriage. A miniature ball bearing keeps each rack firmly engaged with the pinion, preventing it from twisting or lifting away during operation. At just <b>150 grams including the motor</b>, it is significantly lighter than other grippers of comparable quality while retaining a precise, rigid mechanism.
+      </div>
+    </section>
+  </div>
+
+  <!-- Project 4: sROBOT v.1 -->
+  <div class="animate-section delay-4">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">sROBOT v.1</h2>
       <div class="image-container">
@@ -151,8 +165,8 @@ title: Sanatan - Projects
     </section>
   </div>
 
-  <!-- Project 4: Mobile Fire Detection -->
-  <div class="animate-section delay-4">
+  <!-- Project 5: Mobile Fire Detection -->
+  <div class="animate-section delay-5">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">Fire Detection Rover</h2>
       <div class="image-container">
@@ -167,8 +181,8 @@ title: Sanatan - Projects
     </section>
   </div>
 
-  <!-- Project 5: sHUMANOID v.1 -->
-  <div class="animate-section delay-5">
+  <!-- Project 6: sHUMANOID v.1 -->
+  <div class="animate-section delay-6">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">sHUMANOID v.1</h2>
       <div class="image-container">
@@ -183,8 +197,8 @@ title: Sanatan - Projects
     </section>
   </div>
 
-  <!-- Project 6: sGRIPPER v.1 -->
-  <div class="animate-section delay-6">
+  <!-- Project 7: sGRIPPER v.1 -->
+  <div class="animate-section delay-7">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">sGRIPPER v.1</h2>
       <div class="image-container" style="max-width: 800px; margin-left: auto; margin-right: auto;">

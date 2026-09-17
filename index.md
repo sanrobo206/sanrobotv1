@@ -457,7 +457,7 @@ title: SanRobot — Advanced Robotic Systems
 
   <section id="about" class="about-section animate-section">
     <h2>About Sanatan Sinha</h2>
-    <p>Sanatan Sinha is the engineer and creator behind SanRobot. His work focuses on developing precise, lightweight robotic systems through practical mechanical design, advanced materials, and iterative prototyping.</p>
+    <p>Sanatan Sinha is a middle schooler from San Jose who has completed various robotics projects.</p>
   </section>
 
   <footer class="site-footer animate-section">

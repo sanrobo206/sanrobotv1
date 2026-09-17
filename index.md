@@ -108,8 +108,21 @@ title: Sanatan - Projects
     <p style="font-size: 1.2rem; color: #64748b; font-weight: 600; letter-spacing: 4px; text-transform: uppercase;">Engineering Portfolio</p>
   </header>
 
-  <!-- Project 1: sROBOT v.1 -->
+  <!-- Project 1: SanSCARA -->
   <div class="animate-section delay-1">
+    <section class="project-card">
+      <h2 style="text-align: center; margin-bottom: 50px;">SanSCARA</h2>
+      <div class="image-container" style="max-width: 720px; margin-left: auto; margin-right: auto;">
+        <img src="{{ '/sanscara.jpg' | relative_url }}" alt="SanSCARA industrial aluminum robotic system">
+      </div>
+      <div class="project-description">
+        An industrial-quality robotic system built from <b>CNC-machined aluminum</b> for rigidity, precision, and dependable operation. SanSCARA combines an extended linear workspace with an articulated arm, multi-axis wrist, and precision gripper to support flexible manipulation across a broad range of applications.
+      </div>
+    </section>
+  </div>
+
+  <!-- Project 2: sROBOT v.1 -->
+  <div class="animate-section delay-2">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">sROBOT v.1</h2>
       <div class="image-container">
@@ -124,8 +137,8 @@ title: Sanatan - Projects
     </section>
   </div>
 
-  <!-- Project 2: Mobile Fire Detection -->
-  <div class="animate-section delay-2">
+  <!-- Project 3: Mobile Fire Detection -->
+  <div class="animate-section delay-3">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">Fire Detection Rover</h2>
       <div class="image-container">
@@ -140,8 +153,8 @@ title: Sanatan - Projects
     </section>
   </div>
 
-  <!-- Project 3: sHUMANOID v.1 -->
-  <div class="animate-section delay-3">
+  <!-- Project 4: sHUMANOID v.1 -->
+  <div class="animate-section delay-4">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">sHUMANOID v.1</h2>
       <div class="image-container">
@@ -156,8 +169,8 @@ title: Sanatan - Projects
     </section>
   </div>
 
-  <!-- Project 4: sGRIPPER v.1 -->
-  <div class="animate-section delay-4">
+  <!-- Project 5: sGRIPPER v.1 -->
+  <div class="animate-section delay-5">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">sGRIPPER v.1</h2>
       <div class="image-container" style="max-width: 800px; margin-left: auto; margin-right: auto;">
@@ -167,22 +180,6 @@ title: Sanatan - Projects
         A high-precision end-effector featuring an industrial <b>MGN 7 linear rail</b> and a custom <b>cam-based actuation</b> mechanism. This architecture provides perfect parallel finger movement and high mechanical advantage.
         <div style="text-align: center; margin-top: 50px;">
           <a href="https://sanrobo206.github.io/sgripperv1" class="cta-button">EXPLORE MORE INSIDE THE PROJECT</a>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <!-- Project 5: SanSCARA -->
-  <div class="animate-section delay-5">
-    <section class="project-card">
-      <h2 style="text-align: center; margin-bottom: 50px;">SanSCARA</h2>
-      <div class="image-container" style="max-width: 720px; margin-left: auto; margin-right: auto;">
-        <img src="{{ '/sanscara.jpg' | relative_url }}" alt="SanSCARA industrial aluminum robotic system">
-      </div>
-      <div class="project-description">
-        An industrial-quality SCARA system built from <b>CNC-machined aluminum</b> with dedicated <b>Y and Z linear rails</b>. Its two primary joints pair Robstride 00 and Robstride 05 motors with rigid, preloaded conical-bearing supports, while Feetech STS3250 servos control the roll-yaw-pitch wrist and rack-and-pinion gripper.
-        <div style="text-align: center; margin-top: 50px;">
-          <a href="{{ '/sanscara.html' | relative_url }}" class="cta-button">EXPLORE TECHNICAL ANALYSIS</a>
         </div>
       </div>
     </section>

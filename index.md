@@ -360,7 +360,7 @@ title: SanRobot — Advanced Robotic Systems
         <img src="{{ '/sanscara.jpg' | relative_url }}" alt="SanSCARA industrial aluminum robotic system">
       </div>
       <div class="project-description">
-        SanSCARA is a unique hybrid, industrial-quality <b>7-axis SCARA robot</b> built from CNC-machined parts for rigidity and precision. It delivers <b>0.05 mm repeatability</b> and extends the traditional SCARA architecture with a roll-yaw-pitch wrist at the end, enabling flexible tool orientation across a broad working envelope.
+        SanSCARA is a unique hybrid, industrial-quality <b>7-axis SCARA robot</b> built from aluminum parts that I CNC-machined for rigidity and precision. It delivers <b>0.05 mm repeatability</b> and extends the traditional SCARA architecture with a roll-yaw-pitch wrist at the end, enabling flexible tool orientation across a broad working envelope.
       </div>
     </section>
   </div>
@@ -386,7 +386,7 @@ title: SanRobot — Advanced Robotic Systems
         <img src="{{ '/sgripper-ultralight.jpg' | relative_url }}" alt="sGripper Ultra-Lightweight rack-and-pinion gripper">
       </div>
       <div class="project-description">
-        An ultra-lightweight <b>rack-and-pinion gripper</b> that replaces conventional MGN rails with pultruded carbon-fiber guides, a <b>Delrin slider</b>, and a lightweight carriage. A miniature ball bearing keeps each rack firmly engaged with the pinion, preventing it from twisting or lifting away during operation. At just <b>150 grams including the motor</b>, it is significantly lighter than other grippers of comparable quality while retaining a precise, rigid mechanism.
+        An ultra-lightweight <b>rack-and-pinion gripper</b> that uses carbon-fiber guides and a lightweight carriage. A miniature ball bearing keeps each rack firmly engaged with the pinion, preventing it from twisting or lifting away during operation. At just <b>150 grams including the motor</b>, it is significantly lighter than other grippers of comparable quality while retaining a precise, rigid mechanism.
       </div>
     </section>
   </div>

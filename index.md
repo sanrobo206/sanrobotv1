@@ -1,117 +1,359 @@
 ---
 layout: home
-title: Sanatan - Projects
+title: SanRobot — Advanced Robotic Systems
 ---
 
 <style>
-  @import url('https://fonts.googleapis.com');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+  :root {
+    --ink: #0b1220;
+    --muted: #526174;
+    --line: #d9e0e8;
+    --surface: #ffffff;
+    --canvas: #f3f6f9;
+    --accent: #1769e0;
+    --accent-dark: #0f4fab;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
 
   body {
-    background-color: #f8fafc;
-    background-image: radial-gradient(at 0% 0%, hsla(210,100%,93%,1) 0, transparent 50%), 
-                      radial-gradient(at 50% 0%, hsla(220,100%,95%,1) 0, transparent 50%), 
-                      radial-gradient(at 100% 0%, hsla(210,100%,93%,1) 0, transparent 50%);
+    background:
+      linear-gradient(180deg, rgba(23, 105, 224, 0.06) 0, transparent 420px),
+      var(--canvas);
+    color: var(--ink);
     min-height: 100vh;
     margin: 0;
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body > .wrapper {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+
+  body > .wrapper > header,
+  body > .wrapper > footer {
+    display: none;
+  }
+
+  body > .wrapper > section {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  .site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.92);
+    border-bottom: 1px solid rgba(217, 224, 232, 0.9);
+    backdrop-filter: blur(18px);
+  }
+
+  .nav-inner {
+    max-width: 1200px;
+    height: 72px;
+    margin: 0 auto;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .brand {
+    color: var(--ink) !important;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+  }
+
+  .brand-mark {
+    color: var(--accent);
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 28px;
+  }
+
+  .nav-links a {
+    color: #344256 !important;
+    text-decoration: none;
+    font-size: 0.84rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .nav-links a:hover {
+    color: var(--accent) !important;
+  }
+
+  .site-shell {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 28px 72px;
+  }
+
+  .site-hero {
+    min-height: 440px;
+    padding: 112px 0 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .hero-kicker {
+    margin: 0 0 18px;
+    color: var(--accent);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
+  .site-hero h1 {
+    max-width: 900px;
+    margin: 0;
+    color: var(--ink);
+    font-size: clamp(4.5rem, 10vw, 8rem);
+    font-weight: 800;
+    line-height: 0.92;
+    letter-spacing: -0.075em;
   }
 
   @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(40px); }
+    from { opacity: 0; transform: translateY(24px); }
     to { opacity: 1; transform: translateY(0); }
   }
 
   .animate-section {
-    animation: fadeInUp 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    animation: fadeInUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
     opacity: 0;
   }
 
-  .delay-1 { animation-delay: 0.1s; }
-  .delay-2 { animation-delay: 0.3s; }
-  .delay-3 { animation-delay: 0.5s; }
-  .delay-4 { animation-delay: 0.7s; }
-  .delay-5 { animation-delay: 0.9s; }
-  .delay-6 { animation-delay: 1.1s; }
-  .delay-7 { animation-delay: 1.3s; }
+  .delay-1 { animation-delay: 0.05s; }
+  .delay-2 { animation-delay: 0.1s; }
+  .delay-3 { animation-delay: 0.15s; }
+  .delay-4 { animation-delay: 0.2s; }
+  .delay-5 { animation-delay: 0.25s; }
+  .delay-6 { animation-delay: 0.3s; }
+  .delay-7 { animation-delay: 0.35s; }
 
   .project-card {
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 32px;
-    padding: 80px 60px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.05);
-    transition: all 0.5s ease;
-    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);
+    gap: 34px 48px;
+    align-items: center;
+    margin: 32px 0;
+    padding: 42px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(12, 28, 50, 0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   }
 
   .project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 40px 80px -15px rgba(37, 99, 235, 0.1);
-    border-color: rgba(37, 99, 235, 0.3);
+    transform: translateY(-4px);
+    box-shadow: 0 20px 48px rgba(12, 28, 50, 0.1);
+    border-color: #b9c8d9;
   }
 
-  .project-card h2 { 
-    color: #1e293b !important; 
-    font-size: 3.5rem !important; 
-    letter-spacing: -0.04em;
+  .project-card h2 {
+    grid-column: 1 / -1;
+    margin: 0 !important;
+    padding-bottom: 22px;
+    color: var(--ink) !important;
+    border-bottom: 1px solid var(--line);
+    font-size: clamp(2rem, 4vw, 3.15rem) !important;
+    font-weight: 750;
+    line-height: 1.05;
+    letter-spacing: -0.055em;
+    text-align: left !important;
   }
   
-  .project-description { 
-    color: #475569 !important; 
-    font-size: 1.35rem; 
-    line-height: 1.8; 
-    max-width: 900px;
-    margin: 0 auto;
+  .project-description {
+    color: var(--muted) !important;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    max-width: none;
+    margin: 0;
+  }
+
+  .project-description b {
+    color: #17243a;
   }
 
   .cta-button {
     display: inline-block;
-    padding: 20px 45px;
-    background: #2563eb;
+    padding: 14px 24px;
+    background: var(--ink);
     color: #ffffff !important;
     text-decoration: none;
-    border-radius: 100px;
+    border-radius: 8px;
     font-weight: 700;
-    font-size: 1rem;
-    letter-spacing: 1px;
+    font-size: 0.76rem;
+    letter-spacing: 0.09em;
     text-transform: uppercase;
-    transition: all 0.3s ease;
-    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
+    transition: background 0.2s ease, transform 0.2s ease;
+    box-shadow: none;
   }
 
   .cta-button:hover {
-    background: #1e40af;
+    background: var(--accent);
     transform: translateY(-2px);
-    box-shadow: 0 15px 30px rgba(37, 99, 235, 0.3);
   }
 
   .image-container {
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 24px;
-    margin-bottom: 60px;
-    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05), 0 20px 40px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0;
+    overflow: hidden;
+    background: #e8edf2;
+    border: 1px solid #dde4eb;
+    border-radius: 12px;
+    box-shadow: none;
   }
 
   .image-container img {
     width: 100%;
-    border-radius: 16px;
+    max-height: 620px;
+    object-fit: contain;
+    border-radius: 0;
     display: block;
+  }
+
+  .about-section {
+    margin-top: 88px;
+    padding: 64px;
+    display: grid;
+    grid-template-columns: minmax(230px, 0.7fr) minmax(0, 1.3fr);
+    gap: 64px;
+    color: #ffffff;
+    background: var(--ink);
+    border-radius: 20px;
+  }
+
+  .about-section h2 {
+    margin: 0;
+    color: #ffffff !important;
+    font-size: clamp(2rem, 4vw, 3.25rem) !important;
+    line-height: 1.08;
+    letter-spacing: -0.05em;
+  }
+
+  .about-section p {
+    margin: 0;
+    color: #c2cedd;
+    font-size: 1.12rem;
+    line-height: 1.8;
+  }
+
+  .site-footer {
+    margin-top: 52px;
+    padding: 30px 0 12px;
+    display: flex;
+    justify-content: space-between;
+    color: #75849a;
+    border-top: 1px solid var(--line);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 800px) {
+    .site-nav {
+      position: relative;
+    }
+
+    .site-hero {
+      min-height: 360px;
+      padding: 76px 0 64px;
+    }
+
+    .project-card {
+      grid-template-columns: 1fr;
+      gap: 26px;
+      padding: 26px;
+    }
+
+    .about-section {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      padding: 42px 28px;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .nav-inner,
+    .site-shell {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+    .nav-links {
+      gap: 16px;
+    }
+
+    .project-card {
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 14px;
+    }
+
+    .site-footer {
+      display: block;
+      line-height: 1.8;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .animate-section {
+      animation: none;
+      opacity: 1;
+    }
+    .project-card,
+    .cta-button {
+      transition: none;
+    }
   }
 </style>
 
-<div style="max-width: 1200px; margin: 0 auto; padding: 120px 24px; box-sizing: border-box;">
+<nav class="site-nav" aria-label="Primary navigation">
+  <div class="nav-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">San<span class="brand-mark">Robot</span></a>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+    </div>
+  </div>
+</nav>
 
-  <header class="animate-section" style="text-align: center; margin-bottom: 120px;">
-    <h1 style="font-size: 5rem; font-weight: 800; color: #0f172a; margin-bottom: 20px; letter-spacing: -0.05em;">
-      Sanatan <span style="color: #2563eb;">—</span> Projects
-    </h1>
-    <p style="font-size: 1.2rem; color: #64748b; font-weight: 600; letter-spacing: 4px; text-transform: uppercase;">Engineering Portfolio</p>
+<div class="site-shell">
+  <header class="site-hero animate-section">
+    <p class="hero-kicker">Advanced Robotic Systems</p>
+    <h1>SanRobot</h1>
   </header>
 
   <!-- Project 1: SanSCARA -->
-  <div class="animate-section delay-1">
+  <div id="projects" class="animate-section delay-1">
     <section class="project-card">
       <h2 style="text-align: center; margin-bottom: 50px;">SanSCARA</h2>
       <div class="image-container" style="max-width: 720px; margin-left: auto; margin-right: auto;">
@@ -213,8 +455,13 @@ title: Sanatan - Projects
     </section>
   </div>
 
-  <footer class="animate-section" style="margin-top: 100px; text-align: center; color: #94a3b8; font-size: 0.9rem; padding-bottom: 80px; letter-spacing: 2px;">
-    &copy; 2026 DESIGNED BY <span style="font-weight: 800; color: #1e293b;">SANATAN SINHA</span>
+  <section id="about" class="about-section animate-section">
+    <h2>About Sanatan Sinha</h2>
+    <p>Sanatan Sinha is the engineer and creator behind SanRobot. His work focuses on developing precise, lightweight robotic systems through practical mechanical design, advanced materials, and iterative prototyping.</p>
+  </section>
+
+  <footer class="site-footer animate-section">
+    <span>&copy; 2026 Designed by Sanatan Sinha</span>
   </footer>
 
 </div>
